@@ -6,6 +6,10 @@ updates:
       interval: "monthly"
     cooldown:
       default-days: 7
+    groups:
+      actions:
+        patterns:
+          - "*"
   - package-ecosystem: "cargo"
     directory: "/"
     schedule:
@@ -16,7 +20,3 @@ updates:
           - "*"
     cooldown:
       default-days: 7
-    groups:
-      actions:
-        patterns:
-          - "*"
